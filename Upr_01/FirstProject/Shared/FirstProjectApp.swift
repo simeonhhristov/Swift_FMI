@@ -8,10 +8,16 @@
 import SwiftUI
 
 @main
-struct FirstProjectApp: App {
+class LoginForm: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack (alignment: .center, spacing: 10) {
+                ContentView()
+            }
         }
+    }
+
+    required init() {
+        // empty init
     }
 }
