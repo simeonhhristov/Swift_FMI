@@ -62,6 +62,7 @@ struct RegisterView: View {
                 .frame(height: 48)
                 .padding(.leading, 25)
                 .padding(.trailing, 25)
+                .keyboardType(.numberPad)
                 .overlay(
                     RoundedRectangle(cornerRadius: 6)
                         .stroke(lineWidth: 1.2)
@@ -99,7 +100,7 @@ struct RegisterView: View {
                                    bottom: 5,
                                    trailing: 10))
             }
-            .padding(.top, 20)
+            .padding(.top, 60)
             .padding(.leading, 15)
             .buttonStyle(.bordered)
             .tint(Colors.mainGreen)
